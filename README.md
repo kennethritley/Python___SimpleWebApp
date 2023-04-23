@@ -1,15 +1,11 @@
 # Project Title
 
-This is a collection of small Python scripts that show how to 
-create a simple web-app using the popular Flask module.
-
-1. SimpleWebApp - just a "hello world" on http://127.0.0.1:500
-2. NextSimpleWebApp - showing a more complicated version
+This is the simplest possible Flask application.  When you run it, the Flask web
+server starts. If you navigate to localhost:5000 you'll get a Hello World message.
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Docstrings](#docstrings)
 - [Authors](#authors)
 - [License](#license)
 - [CHANGELOG.md](CHANGELOG.md)
@@ -19,17 +15,12 @@ create a simple web-app using the popular Flask module.
 
 For a detailed list of changes and version history, please refer to the [CHANGELOG.md](CHANGELOG.md) file.
 
-
-
 ## Installation
 
-No installation necessary.
+No installation necessary. When the app runs it starts the Flask server that
+listens to localhost:5000.  It should accept:
 
-## Docstrings
-
-Docstrings are similar to Javadocs. You can generate them sphinx tool,
-which can generate HTML, PDF, and other formats. It requires a few
-steps so read the documentation if you need this.
+- http://127.0.0.1:5000 - Hello World
 
 ## Authors
 
